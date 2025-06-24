@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helix Lin Property - Helping Families Thrive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background: #1a4a8a;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav {
+            background: #f4f4f4;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .mission {
+            background: #e8f0fe;
+        }
+
+        .team {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .team-member {
+            width: 300px;
+            text-align: center;
+            margin: 1rem;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .footer {
+            background: #1a4a8a;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #1a4a8a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .donation-form {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .donation-form input,
+        .donation-form select {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Helix Lin Property, LLC</h1>
+        <p>Building Better Lives for Low-Income Families</p>
+    </header>
+
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#mission">Our Mission</a>
+        <a href="#team">Our Team</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Creating Affordable Housing Solutions</h2>
+    </div>
+
+    <section class="section mission" id="mission">
+        <h2>Our Mission</h2>
+        <p>At Helix Lin Property, we are committed to providing safe, affordable housing solutions for low-income families. Through community partnerships and sustainable practices, we aim to create environments where families can thrive.</p>
+        <a href="#donate" class="button">Support Our Cause</a>
+    </section>
+
+    <section class="section" id="team">
+        <h2>Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="ceo.jpg" alt="photo">
+                <h3>Ke Lin</h3>
+                <p>CEO & Founder</p>
+                <p>"Every family deserves a safe place to call home."</p>
+            </div>
+            <div class="team-member">
+                <img src="assistant.jpg" alt="photo">
+                <h3>Sophie Lin</h3>
+                <p>Community Relations Director</p>
+                <p>"Building stronger communities starts with stable housing."</p>
+            </div>
+            <div class="team-member">
+                <img src="charles.jpg" alt="photo">
+                <h3>Charles Lin</h3>
+                <p>Technical Operations Manager</p>
+                <p>"Empowering our mission through innovative solutions."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="donate">
+        <h2>Support Our Mission</h2>
+        <div class="donation-form">
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <select>
+                    <option value="">Select Donation Amount</option>
+                    <option value="50">$50</option>
+                    <option value="100">$100</option>
+                    <option value="250">$250</option>
+                    <option value="500">$500</option>
+                    <option value="other">Other Amount</option>
+                </select>
+                <button type="submit" class="button">Donate Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:helixlinproperty@gmail.com">helixlinproperty@gmail.com</a></p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 25 President Ave, Rutledge, PA 19070</p>
+    </section>
+
+    <footer class="footer">
+        <p>© 2023 Helix Lin Property, LLC - A 501(c)(3) Nonprofit Organization</p>
+        <p>Serving Our Community with Compassion</p>
+    </footer>
+</body>
+</html>
